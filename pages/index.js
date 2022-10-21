@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-
+import Script from 'next/script'
+import Maptalks from '@components/Maptalks'
 export default function Home() {
   return (
     <div className={``}>
@@ -9,14 +9,9 @@ export default function Home() {
         <meta name="description" content="Grønne Nabofællesskaber" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={``}>
-        Main
+        <Maptalks />
       </main>
-
-      <footer className={``}>
-        Footer
-      </footer>
     </div>
   )
 }
