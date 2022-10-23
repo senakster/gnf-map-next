@@ -20,6 +20,9 @@
       "@utils/*": [
         "./utils/*"
       ],
+      "@config/*": [
+        "./config/*"
+      ],
     },
     "allowJs": true,
     "skipLibCheck": true,
