@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import '@styles/maptalks.css'
-
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
